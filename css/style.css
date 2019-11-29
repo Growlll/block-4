@@ -1,0 +1,141 @@
+html {
+	box-sizing: border-box;
+	font-family: "TT Lakes", sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+button {
+	font-family: "TT Lakes", sans-serif;
+	cursor: pointer;
+}
+.wrapper {
+	width: 1120px;
+	height: 512px;
+	margin: 0 auto;
+	padding: 42px 32px 19px;
+	background-color: #F8F8F8;
+}
+
+.button {
+	border: none;
+	background-color: transparent;
+}
+
+
+/* head-start */
+.header {
+	display: flex;
+	flex-direction: column;
+}
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	margin-bottom: 8px;
+}
+.header-title {
+	position: relative;
+	font-size: 28px;
+	line-height: 40px;
+	color: #1B1C21;
+}
+
+.header-title:after {
+	content: "";
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	top: 0;
+	left: -32px;
+	background: #41F6D7;
+	border-radius: 2px;
+}
+
+.header-buttons__info {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: 40px;
+}
+
+.button-header {
+	padding-right: 49px;
+	height: 40px;
+	font-size: 16px;
+	color: #1B1C21;
+}
+
+.button-repair {
+	margin-right: 32px;
+	background :url('../img/icons/repair.svg') right no-repeat;
+}
+.button-checkstatus {
+	background :url('../img/icons/checkstatus.svg') right no-repeat;
+}
+
+.nav {
+	margin-bottom: 10px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu li {
+	list-style: none;
+	margin-right: 10px;
+}
+
+.button-menu {
+	padding: 14px 21px;
+}
+.button_active {
+	background: #FFFFFF;
+	border: 2px solid #B8FFEC;
+	border-radius: 6px;
+}
+/* header-end*/
+
+/* article-start */
+
+.article-inner {
+	display: flex;
+
+}
+.article__text {
+	width: 490px;
+	margin-right: 36px;
+	margin-bottom: 14px;
+	padding-top: 10px;
+}
+
+.text {
+	margin-bottom: 30px;
+	font-size: 14px;
+	color: #1B1C21;
+	overflow: hidden;
+}
+.article__img {
+	width: 531px;
+	height: 307px;
+}
+.article__img > img {
+	border-radius: 6px;
+}
+
+.button-article {
+	padding-left: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1B1C21;
+	background: #F8F8F8 url("../img/icons/arrow-bottom.svg") left no-repeat;
+}
+
+/* article-end */
