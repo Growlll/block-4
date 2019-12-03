@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e64a6730-775f-4d84-822a-dbfbe7e1ad89" name="Default Changelist" comment="" />
+    <list default="true" id="e64a6730-775f-4d84-822a-dbfbe7e1ad89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg_article-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg__article-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/checkstatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/checkstatus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/repair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/repair.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="238">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -41,6 +58,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Regu</find>
+      <find>article</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,9 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../gulpfile.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -131,6 +149,9 @@
       <workItem from="1575011732683" duration="18084000" />
       <workItem from="1575057400450" duration="745000" />
       <workItem from="1575102869926" duration="3176000" />
+      <workItem from="1575209419879" duration="1363000" />
+      <workItem from="1575295147143" duration="4076000" />
+      <workItem from="1575380917648" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="add from phpstorm">
       <created>1575057433060</created>
@@ -144,18 +165,26 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15403000" />
 =======
     <option name="totallyTimeSpent" value="23333000" />
+>>>>>>> master
+=======
+    <option name="totallyTimeSpent" value="33387000" />
 >>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" weight="0.18665607" />
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14058776" />
+>>>>>>> master
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1477363" />
 >>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -173,8 +202,12 @@
 =======
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961783" />
+<<<<<<< HEAD
 >>>>>>> master
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3933121" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7977707" />
+>>>>>>> master
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -282,8 +308,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/q" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
@@ -291,18 +326,26 @@
         <state relative-caret-position="1632">
           <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
 >>>>>>> master
+=======
+        <state relative-caret-position="255">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="1632">
           <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
 =======
         <state relative-caret-position="240">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+>>>>>>> master
+=======
+        <state relative-caret-position="16">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
 >>>>>>> master
         </state>
       </provider>
