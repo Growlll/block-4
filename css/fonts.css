@@ -8,3 +8,12 @@
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'TT Lakes Bold';
+	src: url('../fonts/TTLakes-Bold.eot');
+	src: url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTLakes-Bold.woff') format('woff'),
+	url('../fonts/TTLakes-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
