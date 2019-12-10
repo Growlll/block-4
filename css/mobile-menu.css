@@ -1,14 +1,17 @@
 html {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	font-family: "TT Lakes", sans-serif;
 }
 
-body, ul {
+body, div, ul {
 	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
 }
 button {
+	font-family: "TT Lakes", sans-serif;
 	cursor: pointer;
 }
 .mobile-menu {
@@ -43,6 +46,9 @@ button {
 	right: 0;
 	background: #FF3E79 url("../img/icons/search.svg") center no-repeat;
 }
+.header::after:hover {
+	animation: rotate 0.5s ease-in;
+}
 .logo {
 	display: inline-block;
 	width: 97px;
@@ -55,6 +61,7 @@ button {
 
 /* menu start */
 .menu-list {
+	width: 100%;
 	margin-bottom: 268px;
 }
 .menu-item {
@@ -63,7 +70,6 @@ button {
 }
 .link {
 	font-size: 16px;
-	line-height: 24px;
 	color: #1B1C21;
 	text-decoration: none;
 }
@@ -150,4 +156,13 @@ button {
 }
 .lang-btn:last-child {
 	margin-right: 0;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
