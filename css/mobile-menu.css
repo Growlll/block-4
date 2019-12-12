@@ -14,6 +14,17 @@ button {
 	font-family: "TT Lakes", sans-serif;
 	cursor: pointer;
 }
+button:focus {
+	outline: none;
+}
+a:hover {
+	color: rgba(8, 0, 6, 0.5);
+	cursor: pointer;
+	transition: 500ms;
+}
+a:active {
+	color: #FF3E79;
+}
 .mobile-menu {
 	width: 320px;
 	background: #FFFFFF;
@@ -27,27 +38,43 @@ button {
 	position: relative;
 	margin-bottom: 50px;
 }
-.header:after,
-.header:before {
-	content: "";
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	border-radius: 50%;
-	cursor: pointer;
+.wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		border: none;
+		border-radius: 50%;
+		background-color: #FF3E79;
+		margin-right: 16px;
+	}
+.wrap .icon {
+	width: 60%;
+	transition: all .4s linear;
 }
-.header:after {
+.wrap:last-child {
+	margin-right: 0px;
+}
+
+.wrap-close,
+.wrap-search {
+	content: "";
+	position: absolute;
+}
+.wrap-close {
 	top: 4px;
 	left: 0;
-	background: #FF3E79 url("../img/icons/close.svg") center no-repeat;
 }
-.header:before {
+.wrap-search {
 	top: 4px;
 	right: 0;
-	background: #FF3E79 url("../img/icons/search.svg") center no-repeat;
 }
-.header::after:hover {
-	animation: rotate 0.5s ease-in;
+.wrap-close:hover .icon {
+	transform: rotate(360deg);
+}
+.wrap-scale:hover .icon {
+	transform: scale(1.1);
 }
 .logo {
 	display: inline-block;
@@ -67,13 +94,16 @@ button {
 .menu-item {
 	margin-bottom: 32px;
 	list-style: none;
+	position: relative;
 }
+.menu-item a:link {
+		color: #5cff3c;
+	}
 .link {
 	font-size: 16px;
 	color: #1B1C21;
 	text-decoration: none;
 }
-
 .current {
 	position: relative;
 	color: #7E7E82;
@@ -88,6 +118,23 @@ button {
 	background: #41F6D7;
 	border-radius: 0 50% 50% 0;
 }
+.link:before {
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	background-color: #7E7E82;
+	transition: width 0.3s linear;
+}
+.link:hover:before {
+	width: 30px;
+	height: 2px;
+}
+a.link:active:before {
+	background-color: #FF3E79;
+}
 
 /* footer mobile menu start*/
 .сontact {
@@ -95,34 +142,11 @@ button {
 	flex-wrap: wrap;
 	margin-bottom: 16px;
 }
-.wrap {
-	width: 40px;
-	height: 40px;
-	border: none;
-	border-radius: 50%;
-	background-color: #FF3E79;
-	margin-right: 16px;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-.wrap:last-child {
-	margin-right: 0px;
-}
-.wrap-phone {
-	background-image: url(../img/icons/phone.svg);
-}
-.wrap-message {
-	background-image: url("../img/icons/message.svg");
-}
-.wrap-human {
-	background-image: url("../img/icons/human.svg");
-}
-
 
 .mail {
 	margin-bottom: 12px;
 }
-.mail a {
+.mail__link {
 	font-size: 16px;
 	line-height: 24px;
 	color: #1B1C21;
@@ -132,7 +156,7 @@ button {
 .phone {
 	margin-bottom: 40px;
 }
-.phone a {
+.phone__link {
 	font-size: 24px;
 	line-height: 32px;
 	color: #1B1C21;
@@ -156,13 +180,4 @@ button {
 }
 .lang-btn:last-child {
 	margin-right: 0;
-}
-
-@keyframes rotate {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
 }
