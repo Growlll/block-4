@@ -19,7 +19,10 @@ button:focus {
 	padding-left: 28px;
 	margin-left: 10px;
 	color: #1B1C21;
-	background: url("../img/icons/arrow-bottom.svg") left no-repeat;
+	background-color: transparent;
+	background-image: url("../img/icons/arrow-bottom.svg");
+	background-position: left;
+	background-repeat: no-repeat;
 	text-align: left;
 }
 
@@ -64,15 +67,13 @@ button:focus {
 		height: 100%;
 	}
 	.more {
-		display: flex;
-		justify-content: center;
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
 		border: 2px solid #FF3E79;
-		text-align: center;
-		line-height: 40px;
-		vertical-align: middle;
+		background: url("../img/icons/arrow-right.svg") center no-repeat;
+		-webkit-background-size: 20%;
+		background-size: 20%;
 	}
 	.arrow {
 		position: relative;
@@ -123,7 +124,7 @@ button:focus {
 }
 
 @media (min-width: 1200px) {
-	.hidden-desctop {
+	.hidden:nth-child(n+9) {
 		display: none;
 	}
 	.wrapper {
@@ -141,7 +142,15 @@ button:focus {
 		}
 }
 
+@media (max-width: 767px){
+	.hidden:nth-child(n+3) {
+		display: none;
+	}
+}
 @media (max-width: 1199px){
+	.hidden:nth-child(n+7) {
+		display: none;
+	}
 	.brand-name:nth-child(3n) {
 		margin-right: 0;
 	}
