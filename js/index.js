@@ -1,26 +1,25 @@
 let brands = document.querySelector('.brands')
-let item = document.querySelectorAll('.brands-name')
-let items  = brands.children
-let button = document.querySelector('.show')
-let flag = true
+let btnShowBrands = document.querySelector('.show')
+let isShow = false
 
 
-button.addEventListener('click', function () {
+btnShowBrands.addEventListener('click', function () {
 
-	if (flag) {
-			for (let i = 0; i < items.length; i++) {
-					items[i].classList.remove('hidden')
-			}
-			button.innerHTML = 'Скрыть'
-			button.style.backgroundImage = 'url("img/icons/arrow-top.svg")'
-			flag = false
+	let btnShowBrandsValue = btnShowBrands.innerHTML
+
+	if (isShow) {
+		brands.classList.remove('brands-show')
+		btnShowBrands.classList.remove('show-active')
+		btnShowBrands.innerHTML = btnShowBrands.dataset.show
+		btnShowBrands.dataset.show = btnShowBrandsValue
+		isShow = false
 	} else {
-		for (let i = 0; i < items.length; i++) {
-			items[i].classList.add('hidden')
-		}
-		button.innerHTML = 'Показать все'
-		button.style.backgroundImage = 'url("img/icons/arrow-bottom.svg")'
-		flag = true
+		brands.classList.add('brands-show')
+		btnShowBrands.classList.add('show-active')
+		btnShowBrands.innerHTML = btnShowBrands.dataset.show
+		btnShowBrands.dataset.show = btnShowBrandsValue
+		isShow = true
 	}
+
 })
 
